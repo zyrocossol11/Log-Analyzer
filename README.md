@@ -6,11 +6,11 @@ You can analyze one or multiple log files at once.
 
 ## Example
 
-``` ./log_analyzer.c example.log ```
+``` ./log_analyzer example.log ```
 
 Will analyze your log file.
 
-```./log_analyzer.c logs/ ```
+```./log_analyzer logs/ ```
 
 Will analyze your all log files in the specified directory.
 
@@ -19,11 +19,11 @@ You can also real-time monitor your log files.
 
 ## Example
 
-``` ./log_analyzer.c --monitor example.log ```
+``` ./log_analyzer --monitor example.log ```
 
 for one file. or
 
-``` ./log_analyzer.c --monitor logs/ ```
+``` ./log_analyzer --monitor logs/ ```
 
 for entire directory
 
